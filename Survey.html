@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+
+    <title id="title">Dr.Norman Borlaug</title>    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+  </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #ddda2e">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Quiz.html">Quiz</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Survey.html">Survey</a></li>
+              <!--<li><a class="dropdown-item" href="#">Another action</a></li>-->
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Registration.html">Registration</a></li>
+            </ul>
+          </li>    
+        
+      </div>
+    </div>
+  </nav>
+
+<h5 id="head5">Please fill in this short survey. We really care about your opinion.</h5><br>
+
+<form id="survey">    
+  <div>
+    <label id="email-label">Email</label><br>
+    <input id="email" type="email" placeholder="Please enter your email" required></input>
+  </div>
+
+  <div>
+    <label id="number-label">Age</label><br>
+    <input id="number" type="number" placeholder="Please enter your age"></input>
+  </div>
+
+  <div>
+    <label>What is your current job position?</label><br>
+    <select id="dropdown"> 
+      <option value="">--Please choose an option--</option>
+      <option value="student">Student</option>
+      <option value="part-time">Part-time</option>
+      <option value="full-time">Full-time</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div>
+    <label>How likely are you to recommend us to a friend?</label><br>
+    <input name="radio" type="radio" value="HTML">Definitely</input><br>
+    <input name="radio" type="radio" value="HTML">Maybe</input><br>
+    <input name="radio" type="radio" value="HTML">Not sure</input><br>
+  </div>
+
+  <div>
+    <label>What would you like to be improved?</label><br>
+    <input type="checkbox" attribute="value" value="HTML">Meetings</input><br>
+    <input type="checkbox" attribute="value" value="HTML">Video conferencing</input><br>
+    <input type="checkbox" attribute="value" value="HTML">Forums</input><br>
+    <input type="checkbox" attribute="value" value="HTML">Projects</input><br>
+    <input type="checkbox" attribute="value" value="HTML">Videos</input><br>
+    <input type="checkbox" attribute="value" value="HTML">Courses</input><br>
+  </div>
+
+  <div>
+    <label>Any comments or suggestions?</label><br>
+    <textarea wrap="hard" placeholder="Enter your comment here..." rows="3"></textarea>
+  </div>
+
+  <div>
+    <button id="submit" type="submit">Submit</button>
+  </div>
+</form>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>

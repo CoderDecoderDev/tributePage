@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(60, 198, 240);
+    text-align: center;
+}
+
+#tribute-info {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: block;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#quote {
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#wikipedia {
+    font-size: 20px;
+}
+
+
+
